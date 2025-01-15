@@ -4,9 +4,6 @@ const urlsToCache = [
     'style.css',
     'script.js',
     'stops.csv',
-    'assets/ttc_streetcar.webp',
-    'assets/ttc_bus.webp',
-    'assets/ttc_all.webp',
 ];
 
 self.addEventListener('install', event => {
