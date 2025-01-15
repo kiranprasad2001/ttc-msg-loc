@@ -97,11 +97,11 @@ document.addEventListener("DOMContentLoaded", () => {
         const stopElement = document.createElement("div");
         stopElement.classList.add("grid-item");
       
-        const backgroundImage = {
-          Streetcar: "ttc_streetcar.webp",
-          Bus: "ttc_bus.webp",
-          All: "ttc_all.webp",
-        }[stop.Type?.trim()] || "images.webp";
+//        const backgroundImage = {
+//          Streetcar: "ttc_streetcar.webp",
+//          Bus: "ttc_bus.webp",
+//          All: "ttc_all.webp",
+//        }[stop.Type?.trim()] || "images.webp";
       
         const accessibilityIcon =
           stop.Accessibility === "1"
